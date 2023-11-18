@@ -1,134 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youtube Clone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="Mleft">
-        <div id="Ylogo">
-            <img id="Hambanger" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/hambarger.png?raw=true" alt="">
-            <img id="Ylogo1" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Youtube%20logo.png?raw=true" alt="">
+    <div class="sidebar">
+        <div class="sidebar1">
+            <img id="hambarger" src="./assets/hambarger.png" alt="">
+            <img src="./assets/youtube_logo.svg" alt="">
         </div>
-        <div id="home">
-            <img id="homeimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/home.png?raw=true" alt="">
-            <p id="homep">home</p>
-        </div>
-        <div id="explore">
-            <img id="expimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/explore.png?raw=true" alt="">
-            <p>Explores</p>
-        </div>
-        <div id="shorts">
-            <img id="shortsimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/shorts.png?raw=true" alt="">
-            <p>Shorts</p>
-        </div>
-        <div id="subs">
-            <img id="subsimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/subscription.png?raw=true" alt="">
-            <p>subscriptions</p>
+        
+        <div class="bugbar-family">
+            <div class="bugbar" id="bgcolor"><img src="./assets/home.png" alt=""><p class="bugtext">Home</p></div>
+            <div class="bugbar"><img src="./assets/explore.png" alt=""><p class="bugtext">Explore</p></div>
+            <div class="bugbar"><img src="./assets/shorts.png" alt=""><p class="bugtext">Shorts</p></div>
+            <div class="bugbar"><img src="./assets/subscription.png" alt=""><p class="bugtext">Subscription</p></div>
         </div>
 
-        <hr style="height:1px;border-width:0;color:rgb(130, 76, 76);background-color:gray">
-
-        <div id="library">
-            <img id="libaimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/library.png?raw=true" alt="">
-            <p>Library</p>
+        <div class="sub-sidebar" id="sidebar3">
+            <img src="./assets/library.png" alt="">
+            <span>Library</span>
+            <img src="./assets/history.png" alt="">
+            <span>History</span>
+            <img src="./assets/your_video.png" alt="">
+            <span>Your videos</span>
+            <img src="./assets/watch_later.png" alt="">
+            <span>Watch later</span>
+            <img src="./assets/liked.png" alt="">
+            <span>Liked videos</span>
+            <img src="./assets/down_arrow.png" alt="">
+            <span>Show more</span>
         </div>
-        <div id="history">
-            <img id="hisimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/history.png?raw=true" alt="">
-            <p>History</p>
-        </div>
-        <div id="yourvids">
-            <img id="yourimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/your_video.png?raw=true" alt="">
-            <p>Your Videos</p>
-        </div>
-        <div id="watchlist">
-            <img id="watcimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/watch_later.png?raw=true" alt="">
-            <p>Watch Later</p>
-        </div>
-        <div id="liked">
-            <img id="likeimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/liked.png?raw=true" alt="">
-            <p>Liked</p>
-        </div>
-        <div id="show">
-            <img id="showimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/down_arrow.png?raw=true" alt="">
-            <p>Show More</p>
-        </div>
-
-        <hr style="height:1px;border-width:0;color:gray;background-color:gray">
-
-        <div>
-            <p>SUBSCRIPTIONS</p>
-        </div>
-        <div id="sub1">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201-5.png?raw=true" alt="">
-            <p>Nadir On The Go</p>
-        </div>
-        <div id="sub2">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201-6.png?raw=true" alt="">
-            <p>Code Studio Bangla</p>
-        </div>
-        <div id="sub3">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201.png?raw=true" alt="">
-            <p>MKBHD</p>
-        </div>
-        <div id="sub4">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201-1.png?raw=true" alt="">
-            <p>Figma</p>
-        </div>
-        <div id="sub5">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201-2.png?raw=true" alt="">
-            <p>ATC Android To To C..</p>
-        </div>
-        <div id="sub6">
-            <img src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%201-3.png?raw=true" alt="">
-            <p>Alux.com</p>
-        </div>
-
-    </div>
-    <div id="Mright">
-        <div id="search">
-            <div id="searchbar">
+        <div class="sub-sidebar" id="sidebar4">
+            <span><b>SUBSCRIPTIONS</b></span>
+            <div class="sidebar4-2">
+                <img src="./assets/Ellipse 1-5.png" alt="">
+                <p>Nadir On The Go</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1-6.png" alt="">
+                <p>Coke Studio Bangla</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1.png" alt="">
+                <p>MKBHD</p>
+                <div id="blue##"></div>
+                <img src="./assets/Ellipse 1-1.png" alt="">
+                <p>Figma</p>
+                <div id="blue"></div>
+                <img src="./assets/Ellipse 1-2.png" alt="">
+                <p>ATC Android ToTo C...</p>
+                <div id="blue##"></div>
+                <img src="./assets/Ellipse 1-3.png" alt="">
+                <p>Alux.com</p>
+                <div id="blue"></div>
             </div>
-            <div id="magni">
-                <img id="magnimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/search.png?raw=true" alt="">
-            </div>
-            <div id="voice">
-                <img id="voiceimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/voice-search.png?raw=true" alt="">
-            </div>
-            <div id="record">
-                <img id="recoimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/create-1.png?raw=true" alt="">
-            </div>
-            <div id="multi">
-                <img id="multiimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/more.png?raw=true" alt="">
-            </div>
-            <div id="bell">
-                <img id="bellimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/create.png?raw=true" alt="">
-            </div>
-            <div id="profile">
-                <img id="profimg" src="https://github.com/Kalvium-Program/youtube-clone-boilerplate/blob/main/assets/Ellipse%204-4.png?raw=true" alt="">
-            </div>
-        </div>
-        <hr id="searchhr" style="height:1px;border-width:0;color:gray;background-color:gray">
-        <div id="catagory">
-          <div class="cata1">All</div>
-          <div class="cata1">Cook Studio</div>
-          <div class="cata1">UK</div>
-          <div class="cata1">Case Study</div>
-          <div class="cata1">Music</div>
-          <div class="cata1">Bamgla lofi</div>
-          <div class="cata1">Tour</div>
-          <div class="cata1">SAintaria</div>
-          <div class="cata1">Tech</div>
-          <div class="cata1">Iphone13</div>
-          <div class="cata1">User Imnterface design</div>
-          <div class="cata1">Computer</div>
         </div>
     </div>
-    </body>
+    <div class="main-bar">
+         <div id="main-bar1">
+            <div></div>
+            <div id="main-bar1-1">
+                <div>
+                    <p>Search</p>
+                    <span><img src="./assets/search.png" alt=""></span>
+                </div>
+                <img id="mike" src="./assets/voice-search.png" alt="">
+            </div>
+            <div></div>
+            <div id="main-bar1-2">
+                <img src="./assets/create-1.png" alt="">
+                <img src="./assets/more.png" alt="">
+                <img src="./assets/create.png" alt="">
+                <img id="account"
+                    src="https://yt3.ggpht.com/Q6X6iyBgMKIu1_D5Ty0Jk3qwv4w6tp6ks3ZITH2jfIJFPueGe-NTdUs0cSHoKtDfD560sCL-=s88-c-k-c0x00ffffff-no-rj"
+                    alt="">
+            </div>
+        </div>
+        <div class="main-bar1-mob">
+            <div class="youtube-logo">
+                <img class="filter-icon" src="./assets/hambarger.png" alt="">
+                <img src="./assets/youtube_logo.svg" alt="">
+            </div>
+            <div class="account-logo">
+                <img class="filter-icon" src="./assets/search.png" alt="">
+                <img src="https://yt3.ggpht.com/Q6X6iyBgMKIu1_D5Ty0Jk3qwv4w6tp6ks3ZITH2jfIJFPueGe-NTdUs0cSHoKtDfD560sCL-=s88-c-k-c0x00ffffff-no-rj" alt="">
+            </div>
+        </div>
+        <div id="main-bar2">
+            <div class="buttons">All</div>
+            <div class="buttons">Coke Studio</div>
+            <div class="buttons">UX</div>
+            <div class="buttons">Case Study</div>
+            <div class="buttons">Music</div>
+            <div class="buttons">Bangla Lofi</div>
+            <div class="buttons">Tour</div>
+            <div class="buttons">Saintmartin</div>
+            <div class="buttons">Tech</div>
+            <div class="buttons">iPhone 13</div>
+            <div class="buttons">User Interface Design</div>
+            <div class="buttons">Computer</div>
+            <div class="arrow"><img src="./assets/down_arrow.png" alt=""></div>
+        </div>
+        <div id="main-bar3">
+            <div class="thumbnails" id="one">
+                <div class="image"><img src="./assets/Thumbnail-8.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-6.png" alt=""></div>
+                        <div class="channel-description"><p>Bulbuli | Coke Studio Bangla | <br> Season One | Ritu Raj X Nandita</p></div>
+                    </div>
+                    <div class="updates1"><p>Coke Studio Bangla</p><img class="verify"  src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>1.5Mviews • 2 days ago</p></div>
+                </div>      
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-9.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-7.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>Infinix Note 12: <br> AMOLED Helio G88 SoC!</p></div>
+                    </div>
+                    <div class="updates1"><p>ATC Android ToTo Company</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>4.2Mviews • 2 days ago</p></div>
+                </div>   
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-10.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1"><p>Saptarshi Prakash</p></div>
+                    <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-11.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <!-- <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div> -->
+                    <div class="channel-description" id="bug2"><p>My Mix</p></div>
+                </div>
+                <div class="updates1" id="bug3"><p>Lopamudra Mitra, Anupam roy and more</p></div>
+                <!-- <div class="updates2"><p>4.8Kviews • 1 years ago</p></div> -->
+            </div></div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-4.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-3.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>UX Design-What is it?(From AJ <br> &Smart)</p></div>
+                    </div>
+                    <div class="updates1"><p>AJ&Smar</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>150KMviews • 3 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-5.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <!-- <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div> -->
+                        <div class="channel-description" id="bug4"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1" id="bug5"><p>Mohon Sharif, Odd Signature, Shayan <br> Chowdhury Arnob, and more</p></div>
+                    <!-- <div class="updates2"><p>4.8Kviews • 1 years ago</p></div> -->
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-6.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-4.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>48 VISA-FREE</p></div>
+                    </div>
+                    <div class="updates1"><p>Nadir On The Go</p></div>
+                    <div class="updates2"><p>1.7Mviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-7.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-5.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>14 Advanced Tips to Design <br>FASTER in Figma</p></div>
+                    </div>
+                    <div class="updates1"><p>Mizko</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>53Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-1.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails"><div class="image"><img src="./assets/Thumbnail-2.png" alt=""></div>
+            <div class="text">
+                <div class="description">
+                    <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                    <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                </div>
+                <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+            </div></div>
+            <div class="thumbnails">
+                <div class="image"><img src="./assets/Thumbnail-3.png" alt=""></div>
+                <div class="text">
+                    <div class="description">
+                        <div class="channel-logo"><img src="./assets/Ellipse 4-8.png" alt=""></div>
+                        <div class="channel-description" id="bug1"><p>My first UX Design case study- <br> This got me my first job.</p></div>
+                    </div>
+                    <div class="updates1"><p>Saptarshi Prakash</p><img class="verify" src="./assets/verified 2.png" alt=""></div>
+                    <div class="updates2"><p>4.8Kviews • 1 years ago</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
